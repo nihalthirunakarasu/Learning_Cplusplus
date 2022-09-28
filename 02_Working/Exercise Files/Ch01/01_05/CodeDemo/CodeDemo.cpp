@@ -5,12 +5,11 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
-int main(){
-	string str;
-	cout << "Enter your name: ";
-	cin >> str;
-	cout << "Nice to meet you, " << str << "!" << endl;
-	return (0);
+int main()
+{
+	std::string name;
+	std::cout << "Enter your name: ";
+	std::cin >> name;
+	std::cout << "Hi " << name << ".\nHappy coding!!\n";
+	return 0;
 }

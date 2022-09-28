@@ -7,12 +7,7 @@
 
 using namespace std;
 
-enum cow_purpose { 
-    dairy, 
-    meat, 
-    hide, 
-    pet 
-};
+enum cow_purpose { dairy, meat, hide, pet };
 
 struct cow{
     string name;

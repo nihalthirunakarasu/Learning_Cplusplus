@@ -14,8 +14,7 @@ auto d = 3.14;
 auto e = true;
 auto f = 'd';
 
-int main()
-{
+int main(){
     cout << typeid(a).name() << endl;
     cout << typeid(b).name() << endl;
     cout << typeid(c).name() << endl;
@@ -24,3 +23,14 @@ int main()
     cout << typeid(f).name() << endl;
     return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
