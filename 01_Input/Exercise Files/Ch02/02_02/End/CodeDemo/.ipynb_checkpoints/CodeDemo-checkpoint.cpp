@@ -12,8 +12,7 @@ int a, b = 5; // single line comment
 *  line
 *  comment */
 
-int main()
-{
+int main(){
     bool my_flag;
     a = 7;
     my_flag = false;
